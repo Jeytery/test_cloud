@@ -1,9 +1,5 @@
-public struct test_cloud {
-    public private(set) var text = "Hello, World!"
-
-    public init() {
-        print(text)
+public class __HelloWorld {
+    func printHelloWorld() {
+        print("hello from test_cloud package")
     }
 }
-
-let test = test_cloud()
